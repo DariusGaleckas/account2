@@ -22,19 +22,52 @@ body {
     padding: 0px;
 }
 input {
-    width: 850px;
+    width: 600px;
     background-color: #242424;
     border: unset;
     border: 1px solid #676767;
     /*užapvalinti*/
+    border-radius: 5px;
     color: white;
-    font-size: 20px;
+    font-size: 10px;
     padding: 10px;
 }
 .form {
     width: 75%;
     background-color: #242424;
-    height: 800px;
+    height: 1000px;
     padding: 100px;
-    gap: 50px;
+    gap: 0px;
 }
+form {
+    display: grid;
+    gap: 20px;
+
+}
+.confirm-checkbox {
+    width: 18px;
+    height: 18px;
+    margin: unset;
+    margin-top: 5px;
+    background-color: #242424;
+    accent-color: #242424;
+  }
+  .font-color {
+    color: #7f7f7f;
+    margin-top: 0;
+    font-size: small;
+  }
+  button {
+    width: 180px;
+    height: 38px;
+    color: #ffffff;
+    background-color: #4b72c2;
+    border: unset;
+    border-radius: 4px;
+    margin-top: 30px;
+  }
+  
+  
+  
+  
+  
